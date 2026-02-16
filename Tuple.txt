@@ -1,0 +1,59 @@
+Tuples:
+Tuples are very similar to lists.
+However they have one key difference - immutability
+once an element is inside a tuple, it can not be reassigned.
+tuples use paranthesis: (1,2,3)
+
+t = (1,2,3)
+
+mylist = [1,2,3]
+
+type(t)
+list
+
+type(mylist)
+list
+
+len(t)
+3
+
+t = ('one',2)
+
+t[0]
+'one'
+
+t[-1]
+2
+
+two basic built-in methods:
+
+index method
+
+count method
+
+t = ('a','a','b')
+
+t.count('a')
+2
+
+t.index('a')
+0
+
+t.index('b')
+2
+
+tuple is a tuple we can't change it.
+
+t[0] = "new"
+
+Error:
+	Tuple object does not support item assignment.
+	
+We have flexibility in list, why we need a tuple???
+
+beginning programmer doesn't use tuples often,,
+real usage of tuple when become 
+while we're passing around objects in your program,
+need to make sure that they don't accidentally get changed.(data integrity)
+
+we can't reassignment by accident.

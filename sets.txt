@@ -1,0 +1,33 @@
+Core Data Structures
+
+Python provides built-in collection types.
+
+Type	Ordered	Mutable	Duplicates	Syntax
+List	Yes		Yes		Yes			[]
+Tuple	Yes		No		Yes			()
+Set		No		Yes		No			{}
+Dict	Yes     Yes	  Keys: No	  {key:value}
+
+31
+
+sets in python:
+
+sets are unordered collection of unique elements.
+meaning there can be one representative of the same object.
+let's see some examples!
+
+myset = set()
+print(myset)
+set()
+
+myset.add(1)
+print(myset)
+
+{1}
+
+add a list inside a set
+
+mylist = [1,1,1,1,1,1,1,2,2,2,2,2,3,3,3,3,]
+
+print(set(mylist))
+{1,2,3}
