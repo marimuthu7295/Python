@@ -1,0 +1,41 @@
+PYTHON PRACTICE TASKS
+
+1.  Input and Print
+    -   Ask the user to enter their name using the input() function.
+    -   Store it in a variable.
+    -   Print a greeting message using that variable.
+2.  Two Number Addition
+    -   Ask the user to enter two numbers.
+    -   Store them in variables.
+    -   Add them and print the result.
+3.  Even or Odd Checker
+    -   Ask the user to enter a number.
+    -   Check whether it is even or odd.
+    -   Print the result.
+4.  Create and Print a List
+    -   Create a list of 5 fruits.
+    -   Print each fruit using a for loop.
+5.  Add Item to List
+    -   Create an empty list.
+    -   Ask the user to enter 3 numbers using input().
+    -   Store them in the list.
+    -   Print the final list.
+6.  Random Number Generator
+    -   Import the random module.
+    -   Generate a random number between 1 and 10.
+    -   Print the number.
+7.  Guess the Number Game
+    -   Generate a random number between 1 and 5.
+    -   Ask the user to guess the number.
+    -   Print whether the guess is correct or not.
+8.  List Length Finder
+    -   Create a list of 6 items.
+    -   Print the length of the list using len().
+9.  Maximum Number in List
+    -   Create a list of 5 numbers.
+    -   Print the maximum number using max().
+10. Simple Password Check
+    -   Store a password in a variable.
+    -   Ask the user to enter a password using input().
+    -   If it matches, print “Access Granted”.
+    -   Otherwise, print “Access Denied”.
